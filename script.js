@@ -1,7 +1,7 @@
 const menuBtns=document.querySelectorAll('.menu-btn');
 const foodItems=document.querySelectorAll('.food-item');
 
-let activeBtn="featured";
+let activeBtn="all";
 
 showFoodMenu(activeBtn);
 menuBtns.forEach((btn)=>{
